@@ -10,7 +10,7 @@
 int main(void)
 {
 	char word[] = "_putchar";
-	long unsigned int i;
+	unsigned long int i;
 
 
 	for (i = 0; i < sizeof(word) - 1; i++)
