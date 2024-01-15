@@ -8,11 +8,12 @@
 
 int main(void)
 {
-	int f = 1, s = 2, n, c; 
+	long long int f = 1, s = 2, n;
+	int c; 
 
 	for (c = 1; c <= 50; c++)
 	{
-		printf("%d, ", f);
+		printf("%lld, ", f);
 		n = f + s;
 		f = s;
 		s = n;
