@@ -8,13 +8,15 @@
 
 int main(void)
 {
-	int x, sum = 1;
+	int f = 1, s = 2, n, c; 
 
-	for (x = 1; x <= 50; x++)
+	for (c = 1; c <= 50; c++)
 	{
-		sum = sum + 1;
-		printf("%d, ", x);
-		printf("%d,\n", sum);
+		printf("%d, ", f);
+		n = f + s;
+		f = s;
+		s = n;
 	}
+	printf("\n");
 	return (0);
 }
