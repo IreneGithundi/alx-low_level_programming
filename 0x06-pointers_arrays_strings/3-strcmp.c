@@ -4,7 +4,7 @@
   * _strcmp- compares two strings
   * @s1: string 1
   * @s2: string 2
-  * Return: a positive, negative, or O 
+  * Return: a positive, negative, or O
   */
 
 int _strcmp(char *s1, char *s2)
