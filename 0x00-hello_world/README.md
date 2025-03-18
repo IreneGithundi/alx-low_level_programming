@@ -12,4 +12,6 @@ This is a script that creates a C file in the variable $CFILE and creates an exe
 ## 4-puts.c
 This is a  C program that prints exactly "Programming is like building a multilingual puzzle, followed by a new line strictly using the puts function.
 ## 5-printf.c
-This is a C program that prints exactly with proper grammar, but the outcome is a piece of art,, followed by a new line using the printf function only. 
+This is a C program that prints exactly with proper grammar, but the outcome is a piece of art,, followed by a new line using the printf function only.
+## 6-size.c
+This is a C program that prints the size of various types on the computer it is compiled and run on. 
