@@ -2,4 +2,6 @@
  Introduction to C programming
 
 ## 0-preprocessor
-This is a script that runs a C file saved in the variable $CFILE through the preprocessor and save the result in the file c. 
+This is a script that runs a C file saved in the variable $CFILE through the preprocessor and save the result in the file c.
+## 1-compiler
+This is a script that compiles C file in the variable $CFILE but does not link it. 
