@@ -10,4 +10,6 @@ This is a script that generates the assembly code of a C code in the variable $C
 ## 3-name
 This is a script that creates a C file in the variable $CFILE and creates an executable named cisfun.
 ## 4-puts.c
-This is a  C program that prints exactly "Programming is like building a multilingual puzzle, followed by a new line strictly using the puts function. 
+This is a  C program that prints exactly "Programming is like building a multilingual puzzle, followed by a new line strictly using the puts function.
+## 5-printf.c
+This is a C program that prints exactly with proper grammar, but the outcome is a piece of art,, followed by a new line using the printf function only. 
