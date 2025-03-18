@@ -16,4 +16,6 @@ This is a C program that prints exactly with proper grammar, but the outcome is 
 ## 6-size.c
 This is a C program that prints the size of various types on the computer it is compiled and run on.
 ## 100-intel
-This is a script that generates the assembly code (Intel syntax) of a C code in the $CFILE variable and saved it in an output file 
+This is a script that generates the assembly code (Intel syntax) of a C code in the $CFILE variable and saved it in an output file
+## 101-quote.c
+This is a C program that prints exactly and that piece of art is useful" - Dora Korpar, 2015-10-19, followed by a new line, to the standard error. Strictly no using printf or puts. Program should return 1 
