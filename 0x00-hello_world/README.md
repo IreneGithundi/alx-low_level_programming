@@ -8,4 +8,6 @@ This is a script that compiles C file in the variable $CFILE but does not link i
 ## 2-assembler
 This is a script that generates the assembly code of a C code in the variable $CFILE and saves it in an output file with the extension .s
 ## 3-name
-This is a script that creates a C file in the variable $CFILE and creates an executable named cisfun. 
+This is a script that creates a C file in the variable $CFILE and creates an executable named cisfun.
+## 4-puts.c
+This is a  C program that prints exactly "Programming is like building a multilingual puzzle, followed by a new line strictly using the puts function. 
