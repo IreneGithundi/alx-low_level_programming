@@ -2,3 +2,5 @@
 
 ## 0-positive_or_negative.c
 This is a C program that  will assign a random number to the variable n each time it is executed.
+## 1-last_digit.c
+This is a will assign a random number to the variable n each time it is executed and then print the last digit of the number stored in the variable n.
