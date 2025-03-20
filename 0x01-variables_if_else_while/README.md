@@ -12,3 +12,5 @@ This is a C program that prints the alphabet in lowercase, and then in uppercase
 This is a C program that prints alphabet in lower case except q and e followed by a newline using the putchar function.
 ## 5-print_numbers.c
 This is a c program that prints all single digit numbers of base 10 starting from 0, followed by a new line.
+## 6-print_numberz.c
+This is a C program that prints all single digit numbers of base 10 starting from 0, followed by a new line using putchar function.

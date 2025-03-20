@@ -2,7 +2,9 @@
 
  /**
   * main - Entry Point
-  * description: Prints all numbers from 0 to 9 followed by a newline
+  * @a: First Number
+  *
+  * Description: Print all numbers between 0 and 9
   * Return: Always 0 (Success)
   */
 
