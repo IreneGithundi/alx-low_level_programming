@@ -10,3 +10,5 @@ This is a C program that prints the alphabet 10 times using a user-defined _putc
 C program that checks for lowercase character
 ## 4-isalpha.c
 C program that checks for alphabetic character
+## 5-sign.c
+Prints the sign of a number
