@@ -14,3 +14,7 @@ C program that checks for alphabetic character
 Prints the sign of a number
 ## 6-abs.c
 Computes the absolute value of an integer
+## 7-print_last_digit.c
+Prints the Last Digit of input number
+## 8-24_hours.c
+Prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59.
