@@ -12,3 +12,5 @@ C program that checks for lowercase character
 C program that checks for alphabetic character
 ## 5-sign.c
 Prints the sign of a number
+## 6-abs.c
+Computes the absolute value of an integer
