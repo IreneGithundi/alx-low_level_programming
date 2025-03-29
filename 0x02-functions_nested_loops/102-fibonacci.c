@@ -16,15 +16,20 @@ int main(void)
 	num2 = 2;
 
 	printf("%lu, %lu, ", num1, num2);
-	while (count < 49)
+	while (count < 50)
 	{
 		fibonacci = num1 + num2;
 
-		printf("%lu, ", fibonacci);
+		printf("%lu", fibonacci);
+		if (count < 49)
+		{
+			printf(", ");
+		}
 
 		count++;
 		num1 = num2;
 		num2 = fibonacci;
 	}
+	printf("\n");
 	return (0);
 }
