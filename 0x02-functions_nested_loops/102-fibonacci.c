@@ -16,12 +16,12 @@ int main(void)
 	num2 = 2;
 
 	printf("%lu, %lu, ", num1, num2);
-	while (count < 50)
+	while (count < 48)
 	{
 		fibonacci = num1 + num2;
 
 		printf("%lu", fibonacci);
-		if (count < 49)
+		if (count < 47)
 		{
 			printf(", ");
 		}
