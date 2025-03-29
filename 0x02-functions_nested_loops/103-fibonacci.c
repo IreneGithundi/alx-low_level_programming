@@ -2,32 +2,30 @@
 
 /**
   * main - Adds even number Fibonacci. Sum < 4 mill
-  * 
+  *
   * Return: Always (0);
   */
 
 int main(void)
 {
-	long int num1, num2, fibonacci;
+	long int num1, num2, fibonacci, sum_even;
 
 	num1 = 1;
 	num2 = 2;
-	fibonacci = num1 + num2;
+	sum_even = 0;
 
-	while (fibonacci <= 4000000)
+	while (num2 <= 4000000)
 	{
-		if ((num1 % 2 == 0) && (num2 % 2 == 0))
+		fibonacci = num1 + num2;
+
+		if (num2 % 2 == 0)
 		{
-			printf("%lu", fibonacci);
+			sum_even += num2;
 		}
-		if (fibonacci < 4000000)
-		{
-			printf(", ");
-		}
-		fibonacci += fibonacci;
+
 		num1 = num2;
 		num2 = fibonacci;
 	}
-	printf("\n");
+	printf("%lu\n", sum_even);
 	return (0);
 }
