@@ -9,11 +9,12 @@
 
 int _atoi(char *s)
 {
-	int i, sign, result;
+	int i, sign, result, digit_count;
 
 	i = 0;
 	sign = 1;
 	result = 0;
+	digit_count = 0;
 
 	while (s[i] != '\0')
 	{
@@ -28,6 +29,12 @@ int _atoi(char *s)
 
 		else if (s[i] >= '0' && s[i] <= '9')
 		{
+			digit_count = 0;
+			
+			if (digit_count > 0)
+			{
+				return 0;
+			}
 			result = result * 10 + (s[i] - '0');
 			i++;
 
