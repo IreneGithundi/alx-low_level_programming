@@ -2,7 +2,7 @@
 
 /**
   * _atoi - Convert a string to an integer
-  * *s: string to be converted to an integer
+  * @s: string to be converted to an integer
   *
   * Return: (int) the numbers in a string
   */
@@ -30,6 +30,11 @@ int _atoi(char *s)
 		{
 			result = result * 10 + (s[i] - '0');
 			i++;
+
+			if (s[i] < '0' || s[i] > '9')
+			{
+				break;
+			}
 		}
 
 		else
