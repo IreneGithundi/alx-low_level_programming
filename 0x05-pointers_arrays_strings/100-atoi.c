@@ -2,7 +2,7 @@
 
 /**
   * _atoi - Convert a string to an integer
-  * s: string to be converted to an integer
+  * *s: string to be converted to an integer
   *
   * Return: (int) the numbers in a string
   */
@@ -15,25 +15,28 @@ int _atoi(char *s)
 	sign = 1;
 	result = 0;
 
-	while (s[i] && (s[i] < '0' || s[i] > '9') && (s[i] != '-' && s[i] != '+'))
+	while (s[i] != '\0')
 	{
-		i++;
-	}
-
-	while (s[i] == '-' || s[i] == '+')
-	{
-		if (s[i] == '-')
+		if (s[i] == '-'|| s[i] == '+')
 		{
-			sign *= -1;
+			if (s[i] == '-')
+			{
+				sign *= -1;
+			}
+			i++;
 		}
-		i++;
+
+		else if (s[i] >= '0' && s[i] <= '9')
+		{
+			result = result * 10 + (s[i] - '0');
+			i++;
+		}
+
+		else
+		{
+			i++;
+		}
 	}
 
-	while (s[i] >= '0' && s[i] <= '9')
-	{
-		result = result * 10 + (s[i] - '0');
-		i++;
-	}
-
-	return (result * sign);
+	return (sign * result);
 }
