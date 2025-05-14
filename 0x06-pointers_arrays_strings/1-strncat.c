@@ -23,7 +23,15 @@ char *_strncat(char *dest, char *src, int n)
 
 	while (i < n)
 	{
-		dest[index] = src[i];
+		if(src[i] != '\0')
+		{
+			dest[index] = src[i];
+		}
+		else
+		{
+			break;
+		}
+
 		i++;
 		index++;
 	}
