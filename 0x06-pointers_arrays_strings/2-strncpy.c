@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-  * *_strrncpy - Function that copies n bytes of a string
+  * *_strncpy - Function that copies n bytes of a string
   * @dest: string that string will be copied to
   * @src: string that characters will be copied from
   * @n: Number of characters to be copied
@@ -15,16 +15,13 @@ char *_strncpy(char *dest, char *src, int n)
 
 	index = 0;
 
+	if (*src == '\0')
+	{
+		return (dest);
+	}
 	while (index < n)
 	{
-		if (src[index] == '\0')
-		{
-			break;
-		}
-		else 
-		{
-			dest[index] = src[index];
-		}
+		dest[index] = src[index];
 		index++;
 	}
 
