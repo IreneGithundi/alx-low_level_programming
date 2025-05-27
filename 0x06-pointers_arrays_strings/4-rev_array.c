@@ -12,6 +12,8 @@ void reverse_array(int *a, int n)
 	int *end = a;
 	int swap = 0;
 
+	if (n > 0)
+	{
 	while (*end != a[n-1])
 	{
 		end++;
@@ -25,5 +27,6 @@ void reverse_array(int *a, int n)
 
 		start++;
 		end--;
+	}
 	}
 }
