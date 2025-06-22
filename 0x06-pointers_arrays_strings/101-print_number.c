@@ -39,6 +39,7 @@ void print_number(int n)
 	while (divisor > 0)
 	{
 		int digit = n / divisor;
+
 		_putchar(digit + '0');
 		n %= divisor;
 		divisor /= 10;
