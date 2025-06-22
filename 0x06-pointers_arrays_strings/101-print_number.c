@@ -13,13 +13,7 @@ void print_number(int n)
 	int divisor = 1;
 	int i;
 
-	if (n < 0)
-	{
-		_putchar('-');
-		n *= -1;
-	}
-
-	else if (n == 0)
+	if (n == 0)
 	{
 		_putchar('0');
 		return;
@@ -36,9 +30,18 @@ void print_number(int n)
 		divisor *= 10;
 	}
 
+	if (n < 0)
+	{
+		_putchar('-');
+	}
 	while (divisor > 0)
 	{
 		int digit = n / divisor;
+
+		if(digit < 0)
+		{
+			digit *= -1;
+		}
 
 		_putchar(digit + '0');
 		n %= divisor;
