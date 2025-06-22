@@ -38,7 +38,7 @@ void print_number(int n)
 	{
 		int digit = n / divisor;
 
-		if(digit < 0)
+		if (digit < 0)
 		{
 			digit *= -1;
 		}
